@@ -1,0 +1,626 @@
+{
+ "source": {
+  "note": "內容依方法卡重新整理與精簡；未使用原始圖片。"
+ },
+ "stages": [
+  {
+   "id": "research",
+   "name": "研究",
+   "summary": "題目還模糊、不確定誰會用時，先了解人、場域與市場。"
+  },
+  {
+   "id": "define",
+   "name": "定義",
+   "summary": "把研究發現收斂成清楚的問題，再開始發想。"
+  },
+  {
+   "id": "ideate",
+   "name": "發想",
+   "summary": "針對明確的問題，大量產生點子。"
+  },
+  {
+   "id": "converge",
+   "name": "收斂",
+   "summary": "從大量點子中快速排序、凝聚共識。"
+  },
+  {
+   "id": "prototype",
+   "name": "原型",
+   "summary": "把點子變成看得到、摸得到、走得過的樣子。"
+  },
+  {
+   "id": "test",
+   "name": "測試",
+   "summary": "讓使用者實際體驗原型，蒐集回饋並改良。"
+  }
+ ],
+ "cards": [
+  {
+   "id": "shadowing",
+   "stage": "research",
+   "name": "影子觀察法",
+   "english": "Shadowing",
+   "when": [
+    "對使用情境還很模糊"
+   ],
+   "materials": [
+    "筆",
+    "事先擬好的觀察表單（A5 大小）",
+    "便利貼"
+   ],
+   "description": "像影子一樣跟著觀察對象度過日常，用文字（與允許時的錄影）記錄行為，從中發現對方沒說出口的需求。",
+   "tips": [
+    "出發前列好要觀察的項目：地點、時間、角色、環境，以及至少十個行為。",
+    "用第三人稱客觀記錄。",
+    "回來後組員輪流像說故事一樣分享，聽的人用便利貼記下關鍵行為。",
+    "最後用親和圖法（川喜田二郎法）分類整理。"
+   ],
+   "reference": null,
+   "reference_note": "原始卡片只附圖片來源（Unsplash 圖庫），沒有方法說明連結。"
+  },
+  {
+   "id": "fly-on-the-wall",
+   "stage": "research",
+   "name": "隱匿觀察",
+   "english": "Fly-on-the-Wall Observation",
+   "when": [
+    "不想打擾使用者",
+    "想看使用者和場域之間的互動",
+    "對使用者樣貌與情境都很模糊",
+    "擔心桌面研究的資料有偏誤"
+   ],
+   "materials": [
+    "筆",
+    "A4 紙"
+   ],
+   "description": "在特定場域像牆上的監視器一樣定點或移動觀察，不讓使用者察覺，避免他們因為被看而改變行為。三不原則：不參與、不互動、不被注意。",
+   "tips": [
+    "先鎖定服務實際會被使用的地點。",
+    "列出使用者在現場會做的每一項任務。",
+    "每位組員用「活動、環境、互動、物件、使用者」五個面向的表單記錄。",
+    "結果可以接著用在顧客旅程地圖、人物誌與使用者故事。"
+   ],
+   "reference": null,
+   "reference_note": "原始卡片只附圖片來源（Unsplash 圖庫）。"
+  },
+  {
+   "id": "stakeholder-map",
+   "stage": "research",
+   "name": "利害關係人地圖",
+   "english": "Stakeholder Mapping",
+   "when": [
+    "不知道該訪談誰",
+    "訪談了很多人但結果太發散",
+    "想全面了解服務會影響到哪些人"
+   ],
+   "materials": [
+    "筆",
+    "A4 紙"
+   ],
+   "description": "列出所有會影響產品或被產品影響的人，用同心圓由內到外分成直接影響、間接影響與其他，看清楚彼此的關係。",
+   "tips": [
+    "先把所有關係人列出來，觀察或訪談後再補上潛在的關係人，並寫下各自的興趣與動機。",
+    "用「影響力」與「興趣」兩軸評估，挑出值得訪談的人。",
+    "用線條粗細表示影響力、箭頭表示影響方向，重畫關係圖。"
+   ],
+   "reference": null,
+   "reference_note": "原始卡片只附圖片來源（Unsplash 圖庫）。"
+  },
+  {
+   "id": "love-breakup-letter",
+   "stage": "research",
+   "name": "分手信與情書",
+   "english": "Breakup Letter and Love Letter",
+   "when": [
+    "想了解使用者與既有產品或競品之間的關係",
+    "準備進入發想之前"
+   ],
+   "materials": [
+    "筆",
+    "A4 紙"
+   ],
+   "description": "不直接問喜不喜歡，而是請人寫一封給產品的分手信或情書，從真實經驗中說出為什麼想離開或留下，看出品牌與使用者之間的感受與忠誠度。",
+   "tips": [
+    "先決定要收幾封信、聚焦哪類產品、要分手信、情書或兩者都要。",
+    "請書寫者聚焦在想離開或決定留下的關鍵時刻。",
+    "把各封信的共同點寫成便利貼，用親和圖法分類，再用點點投票評估重要性。"
+   ],
+   "reference": null,
+   "reference_note": "原始卡片只附圖片來源（Unsplash 圖庫）。"
+  },
+  {
+   "id": "competitor-analysis",
+   "stage": "research",
+   "name": "競品分析",
+   "english": "Competitor Analysis",
+   "when": [
+    "想找靈感或設計機會點",
+    "想了解自己與其他產品的市場定位差異"
+   ],
+   "materials": [
+    "筆",
+    "A4 紙",
+    "電腦"
+   ],
+   "description": "列出競爭產品與自家產品的優勢、劣勢，或做一張功能比較表，從別人的做法中找到靈感與切入點。",
+   "tips": [
+    "先講清楚分析目的：想知道什麼？結果會不會影響功能決定？",
+    "競品分成直接競爭與間接競爭（對方的次要服務正好是你的主要服務）。",
+    "最後寫一段簡短總結：發現了什麼、可能的影響、市場定位。"
+   ],
+   "reference": null,
+   "reference_note": "原始卡片只附圖片來源（Unsplash 圖庫）。"
+  },
+  {
+   "id": "desk-research",
+   "stage": "research",
+   "name": "桌面研究",
+   "english": "Desk Research",
+   "when": [
+    "想先了解主題的背景知識",
+    "想快速蒐集各方對議題的看法"
+   ],
+   "materials": [
+    "電腦"
+   ],
+   "description": "也就是二手資料研究：用關鍵字搜尋、文獻與公開資料，低成本快速累積大量知識。",
+   "tips": [
+    "先列清單：「我們需要知道什麼？」「什麼對我們最重要？」",
+    "資料來源：政府開放資料、研究機構與非政府組織、線上新聞與數位雜誌、社群平台。",
+    "優先順序：權威性高於地域性，地域性高於時效性。",
+    "記錄出處並在團隊內分享。"
+   ],
+   "reference": null,
+   "reference_note": "原始卡片只附圖片來源（Unsplash 圖庫）；原卡未列材料，此處補上電腦。"
+  },
+  {
+   "id": "interview",
+   "stage": "research",
+   "name": "一對一深度訪談",
+   "english": "One-on-One Interview",
+   "when": [
+    "想知道使用者對某件事或某個產品的想法",
+    "易用性測試之後想追問原因"
+   ],
+   "materials": [
+    "筆",
+    "A4 紙",
+    "便利貼",
+    "錄音筆",
+    "錄影設備"
+   ],
+   "description": "最好到受訪者家中或辦公室進行，了解他們的生活方式、價值觀、使用情境、流程與痛點。事先分好主訪、副訪與記錄者。",
+   "tips": [
+    "目標要具體、和特定行為有關，不要太廣。",
+    "訪談大綱用清楚、開放、不帶引導的問題。",
+    "讓受訪者自在，邊聽邊觀察表情與動作。",
+    "一張便利貼只記一個概念，最後用親和圖法整理。"
+   ],
+   "reference": null,
+   "reference_note": "原始卡片只附圖片來源（Unsplash 圖庫）。"
+  },
+  {
+   "id": "persona",
+   "stage": "research",
+   "name": "人物誌",
+   "english": "Persona",
+   "when": [
+    "做完使用者研究之後",
+    "開始發想之前"
+   ],
+   "materials": [
+    "筆",
+    "A4 紙"
+   ],
+   "description": "用虛構但有根據的人物代表一群使用者；有不同類型的使用者就做多份。它幫團隊對「我們在為誰設計」建立共識，也是後續決策的依據。",
+   "tips": [
+    "包含姓名、年齡、職業、喜好、使用動機、需求。",
+    "描述真實生活中的行為：在哪裡用、自願還是被迫、多久用一次、用什麼裝置。",
+    "寫出煩惱、目標與影響使用的因素。",
+    "用一句最能代表他的話呈現態度；不要為了有趣而寫得不實際。"
+   ],
+   "reference": null,
+   "reference_note": "原始卡片只附圖片來源（Unsplash 圖庫）。"
+  },
+  {
+   "id": "customer-journey-map",
+   "stage": "research",
+   "name": "顧客旅程地圖",
+   "english": "Customer Journey Map",
+   "when": [
+    "已經蒐集完使用者的行為資料",
+    "想找出服務缺口與可以切入的時機"
+   ],
+   "materials": [
+    "筆",
+    "全開海報紙",
+    "便利貼"
+   ],
+   "description": "把顧客體驗服務的過程畫成一條路線，看清楚每個環節發生了什麼，幫助團隊建立共識。",
+   "tips": [
+    "可包含：情境與體驗階段（服務前、中、後）、接觸點、互動方式、情緒與想法、痛點，以及痛點的可能解法。"
+   ],
+   "reference": null,
+   "reference_note": "原始卡片只附圖片來源（Unsplash 圖庫）。"
+  },
+  {
+   "id": "point-of-view",
+   "stage": "define",
+   "name": "觀點陳述",
+   "english": "Point of View",
+   "when": [
+    "需要讓團隊聚焦在特定使用者類型與需求"
+   ],
+   "materials": [
+    "筆",
+    "A4 或 A3 紙"
+   ],
+   "description": "整理研究資料後，寫成一句設計觀點，每一句都是一個設計起點。常見句型：「（使用者）需要（需求）才能（目標），因為（洞見）」，或「我們該如何幫助（使用者）達成（目標）」。",
+   "tips": [
+    "隨著原型與測試，下一輪可以回頭修改觀點陳述。",
+    "需求用動詞描述，能引導團隊從情境思考。"
+   ],
+   "reference": "https://www.tlpnyc.com/blog/define-stage"
+  },
+  {
+   "id": "how-might-we",
+   "stage": "define",
+   "name": "我們該如何",
+   "english": "How Might We",
+   "when": [
+    "正式發想之前，要讓團隊聚焦在研究中的需求與機會點"
+   ],
+   "materials": [
+    "筆",
+    "A4 或 A3 紙"
+   ],
+   "description": "把每個洞見或使用者故事改寫成「我們該如何……？」的問句。這種句型自然會引出很多點子，也就成為發想的題目。",
+   "tips": [
+    "每個問句都有價值，但要依團隊狀況決定先處理哪幾個。",
+    "把問句分群，再請執行者、服務提供者、使用者或管理者一起排優先順序。"
+   ],
+   "reference": "https://www.uxframeworks.design/framework/how-might-we"
+  },
+  {
+   "id": "brainstorming",
+   "stage": "ideate",
+   "name": "腦力激盪",
+   "english": "Brainstorming",
+   "when": [
+    "已經有明確的問題，需要大量發散的解法"
+   ],
+   "materials": [
+    "筆",
+    "大量便利貼",
+    "白板或白報紙"
+   ],
+   "description": "有原則的自由發想：針對定義清楚的問題，每個人把點子用圖文寫在便利貼上，貼到共用白板。要先產生很多壞點子，才會出現好點子。",
+   "tips": [
+    "一定要先有明確的問題。",
+    "不批評別人的點子。",
+    "瘋狂的點子也歡迎。",
+    "站在夥伴的點子上延伸。",
+    "量比質重要，篩選留到之後。",
+    "有人不敢發言時，改成先各自安靜寫完再一起分享。"
+   ],
+   "reference": "https://pmp-practitioners.com/contrary-to-popular/"
+  },
+  {
+   "id": "method-635",
+   "stage": "ideate",
+   "name": "六三五默寫式腦力激盪",
+   "english": "6-3-5 Brainwriting",
+   "when": [
+    "想在短時間內累積大量點子",
+    "有人不習慣當眾發言"
+   ],
+   "materials": [
+    "彩色筆",
+    "A4 白紙十八張",
+    "便利貼"
+   ],
+   "description": "六個人圍成一圈，每人每五分鐘寫三個點子，然後把紙傳給左手邊的人，接著前一位的點子再寫三個。傳六輪、約三十分鐘，最多可得一百零八個點子。",
+   "tips": [
+    "全程不說話，讓想法自由發揮。",
+    "善用前一位的點子往下延伸。",
+    "有多個題目時，不同紙放不同題目。"
+   ],
+   "reference": null,
+   "reference_note": "原始卡片的連結只是一張搜尋引擎縮圖，不是方法說明。"
+  },
+  {
+   "id": "crazy-8",
+   "stage": "ideate",
+   "name": "瘋狂八格",
+   "english": "Crazy 8s",
+   "when": [
+    "已經有使用者需求或設計目標，要開始發想並初步補充細節"
+   ],
+   "materials": [
+    "彩色筆",
+    "A4 與 A3 紙",
+    "便利貼",
+    "圓點貼"
+   ],
+   "description": "八分鐘內畫出八個點子。流程：先回顧可借用的既有做法並分享，再把紙折成八格各畫一個概念，接著貼牆分享並每人投三票，最後把勝出的點子畫成更完整的草圖。",
+   "tips": [
+    "傳達意思最重要，畫得好不好最不重要。",
+    "可以投自己的點子。",
+    "最後的草圖至少用三張大便利貼，說清楚服務內容、使用過程與使用者得到的好結果。"
+   ],
+   "reference": "https://uxplanet.org/generate-crazy-ideas-with-this-design-sprint-method-c6a36a16c3d5"
+  },
+  {
+   "id": "six-thinking-hats",
+   "stage": "ideate",
+   "name": "六頂思考帽",
+   "english": "Six Thinking Hats",
+   "when": [
+    "時間緊迫又需要全面看問題",
+    "問題複雜、討論不出結論",
+    "意見分歧、互不相讓"
+   ],
+   "materials": [
+    "不需要特別材料"
+   ],
+   "description": "用六種顏色代表六種思考方式，戴上哪一頂就只用那種方式發言，讓大家站在同一個出發點討論。白色：客觀事實與數據；紅色：情緒與直覺；黑色：風險與批判；黃色：好處與正面價值；綠色：新點子與創意；藍色：主持控場、定目標、做總結。",
+   "tips": [
+    "沒有固定的順序。",
+    "同一頂帽子可以用很多次，也可以不用。",
+    "用簡單的顏色順序快速推進討論。"
+   ],
+   "reference": "http://parents.youthmba.com/archives/10518"
+  },
+  {
+   "id": "pen-teller-poker",
+   "stage": "ideate",
+   "name": "筆畫手、說故事者、提問者",
+   "english": "Pen, Teller, Poker",
+   "when": [
+    "想讓討論中的點子當場變成看得見的畫面"
+   ],
+   "materials": [
+    "筆",
+    "A4 紙"
+   ],
+   "description": "一人當筆畫手，把大家說的內容即時畫出來；其他人當說故事者，一人一句描述設計；每隔固定輪次（例如每第三句）由提問者追問、挑毛病，讓設計更清楚。例：設計書桌燈時，有人說掛在螢幕上，提問者問「旋鈕會不會不好調？」，下一位就把旋鈕改成外接。",
+   "tips": [
+    "事先約定提問者出現的節奏。",
+    "建議每人至少有三次發言機會。"
+   ],
+   "reference": null,
+   "reference_note": "原始卡片的連結指向一個無關的活動頁面，不是方法說明。"
+  },
+  {
+   "id": "dot-voting",
+   "stage": "converge",
+   "name": "點點投票",
+   "english": "Dot Voting",
+   "when": [
+    "點子很多，需要快速知道大家偏好哪些"
+   ],
+   "materials": [
+    "粗筆",
+    "便利貼",
+    "圓點貼紙"
+   ],
+   "description": "把待選的點子貼在牆上或攤在桌上，每人用圓點貼或粗筆投給喜歡的點子並簡短說明。不用長時間討論，就能看出多數人的興趣。",
+   "tips": [
+    "可以一人一票、一人多票，或對每個點子都表態。",
+    "同票時先排除其他選項再投一輪。",
+    "投票標準可以輕鬆一點，例如「最有趣」「最瘋狂」「最有用」「使用者最喜歡」。",
+    "投票是偏好的參考，不是決定；要有意識地做出選擇。"
+   ],
+   "reference": "https://feedbackframes.com/not-dotmocracy/"
+  },
+  {
+   "id": "idea-portfolio",
+   "stage": "converge",
+   "name": "點子合集",
+   "english": "Idea Portfolio",
+   "when": [
+    "點子很多，需要可靠的排序並凝聚共識"
+   ],
+   "materials": [
+    "筆",
+    "大白報紙或紙膠帶",
+    "便利貼"
+   ],
+   "description": "選兩個評估軸，在牆上或地上畫出象限。每個點子由成員在兩軸上各給零到十分，再放到對應位置，最後討論要深入哪些點子。",
+   "tips": [
+    "建議兩軸用「對顧客體驗的影響」和「可行性」。",
+    "選中的點子可以接著用顧客旅程地圖、服務藍圖或原型繼續探索。"
+   ],
+   "reference": "https://www.thisisservicedesigndoing.com/methods/idea-portfolio"
+  },
+  {
+   "id": "storyboard",
+   "stage": "prototype",
+   "name": "分鏡圖",
+   "english": "Storyboard",
+   "when": [
+    "概念很難做成實體原型",
+    "想呈現服務流程中的每個關鍵環節"
+   ],
+   "materials": [
+    "筆",
+    "A4 紙",
+    "便利貼（可選）"
+   ],
+   "description": "像漫畫一樣用幾格畫面，快速說明服務流程中人、物與服務如何互動。",
+   "tips": [
+    "依時間順序推進。",
+    "聚焦在每個關鍵時刻。",
+    "強調人與服務。",
+    "不需要畫得精細。"
+   ],
+   "reference": "https://www.designkit.org/methods/storyboard"
+  },
+  {
+   "id": "role-playing",
+   "stage": "prototype",
+   "name": "角色扮演",
+   "english": "Role-Playing",
+   "when": [
+    "概念是一段流程",
+    "服務容易和受測者的生活經驗連結"
+   ],
+   "materials": [
+    "說明情境需要的道具（可搭配低擬真原型）"
+   ],
+   "description": "先設定好情境與流程，由小組成員扮演服務提供方、邀請受測者扮演服務接收方，一起把整段服務走一遍。例如設計新的咖啡廳體驗時，組員當店員、受測者當客人。",
+   "tips": [
+    "安排一位記錄者拍照、筆記或錄影，結束後討論。",
+    "結束後再接一段訪談蒐集回饋。"
+   ],
+   "reference": "https://servicedesigntools.org/tools/role-playing"
+  },
+  {
+   "id": "low-fidelity-prototype",
+   "stage": "prototype",
+   "name": "低擬真原型",
+   "english": "Prototyping",
+   "when": [
+    "概念是一個實體物品或畫面"
+   ],
+   "materials": [
+    "筆",
+    "A4 紙",
+    "便利貼",
+    "積木",
+    "隨手可得的材料（厚紙板、膠帶）"
+   ],
+   "description": "把概念做成具體的樣子，讓團隊可以拿去測試。",
+   "tips": [
+    "用隨手可得的材料，粗糙沒關係。",
+    "重點是讓受測者看懂概念，並從他們與原型的互動中蒐集回饋。"
+   ],
+   "reference": "https://www.nngroup.com/search/?q=Prototyping"
+  },
+  {
+   "id": "ab-testing",
+   "stage": "test",
+   "name": "A/B 測試",
+   "english": "A/B Testing",
+   "when": [
+    "想驗證某個假設是否真的影響結果"
+   ],
+   "materials": [
+    "A 版本原型",
+    "B 版本原型"
+   ],
+   "description": "把同一個設計做成兩個版本，讓受測者使用後蒐集與目標相關的回饋或數據，比較哪個版本較能達成目標。",
+   "tips": [
+    "目標要簡單明確。",
+    "一次只改一個變數。",
+    "同一位受測者從頭到尾只用同一個版本。"
+   ],
+   "reference": "https://www.nosto.com/products/ab-testing-optimization/"
+  },
+  {
+   "id": "desirability-testing",
+   "stage": "test",
+   "name": "期許測試",
+   "english": "Desirability Testing",
+   "when": [
+    "原型做好之後",
+    "團隊爭論哪個設計最好，想改看使用者的感受"
+   ],
+   "materials": [
+    "形容詞索引卡",
+    "筆",
+    "記錄用紙"
+   ],
+   "description": "準備寫有正面、中性、負面形容詞的卡片，請使用者在體驗時挑出符合感受的卡片並說明原因。比較實際反應與預期的落差，修改後再測，直到出現預期的反應。",
+   "tips": [
+    "形容詞可以用現成模板，也可以針對產品自訂。",
+    "結果可以整理成文字雲或圖表，更容易判讀。"
+   ],
+   "reference": "http://www.uxforthemasses.com/product-reaction-cards/"
+  },
+  {
+   "id": "critical-incident",
+   "stage": "test",
+   "name": "關鍵事件法",
+   "english": "Critical Incident Technique",
+   "when": [
+    "想了解使用者實際使用產品的成效"
+   ],
+   "materials": [
+    "筆",
+    "便條紙",
+    "可以錄影的手機"
+   ],
+   "description": "在一旁觀察使用者實際體驗時遇到的關鍵事件，例如卡住的地方或必須快速決定的時刻，記下問題、反應與結果，結束後再訪談了解背後原因。",
+   "tips": [
+    "目標是讓成功的經驗可以重現、讓負面的結果消失。",
+    "請受測者邊用邊把心裡的想法說出來（放聲思考）。",
+    "記下所有造成困惑或阻礙的事件。",
+    "受測者同意時錄影，重看常會發現漏掉的細節。"
+   ],
+   "reference": "https://yeti.co/blog/to-test-or-not-to-test-what-to-include-in-your-tech-product-prototype/"
+  },
+  {
+   "id": "laddering",
+   "stage": "test",
+   "name": "階梯法",
+   "english": "Laddering",
+   "when": [
+    "想挖出使用者對產品或設計真正的想法"
+   ],
+   "materials": [
+    "筆",
+    "便條紙"
+   ],
+   "description": "在一對一訪談中，順著受訪者的回答一層一層追問「為什麼？」，找到行為背後真正的動機。",
+   "tips": [
+    "每個回答都可以再接一個「為什麼？」。",
+    "抱持打破砂鍋問到底的精神，但保持友善。"
+   ],
+   "reference": "http://newdesignmethod.blogspot.com/2012/04/b9934008howwhy-laddering.html"
+  },
+  {
+   "id": "guerrilla-testing",
+   "stage": "test",
+   "name": "游擊式測試",
+   "english": "Guerrilla Testing",
+   "when": [
+    "想便宜又快速地蒐集大量回饋"
+   ],
+   "materials": [
+    "筆",
+    "筆記本",
+    "原型"
+   ],
+   "description": "把原型帶到咖啡廳或其他公共場所，邀請路過的自願者試用並給簡短回饋。參與者不一定是目標使用者，重點是快速取得直覺反應。",
+   "tips": [
+    "事先準備好問題大綱，避免離題。",
+    "時間要短，免得對方失去耐心。",
+    "地點會大幅影響遇到的人。",
+    "適合大眾都會接觸的產品；太專業的領域很難從路人得到真實回饋。"
+   ],
+   "reference": null,
+   "reference_note": "原始卡片誤附了階梯法的連結，沒有本方法專屬的參考連結。"
+  },
+  {
+   "id": "wizard-of-oz",
+   "stage": "test",
+   "name": "奧茲巫師",
+   "english": "Wizard of Oz",
+   "when": [
+    "功能還沒做出來，想用低成本做出高擬真的測試"
+   ],
+   "materials": [
+    "可以由人在幕後操作的原型"
+   ],
+   "description": "常用於互動裝置。由一位（或多位）組員躲在幕後扮演巫師，在受測者操作時手動模擬系統反應，讓受測者以為在和真正的系統互動。",
+   "tips": [
+    "幕後的人要能即時看到使用者的反應。",
+    "事先彩排，否則容易穿幫。",
+    "其他人在旁記錄使用狀況。",
+    "測試後訪談受測者的感受。"
+   ],
+   "reference": "https://www.simpleusability.com/inspiration/2018/08/wizard-of-oz-testing-a-method-of-testing-a-system-that-does-not-yet-exist/"
+  }
+ ]
+}
