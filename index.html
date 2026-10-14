@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>設計思考方法卡</title>
+  <meta name="description" content="設計思考六個階段、二十七張方法卡。依目前遇到的情況、階段或關鍵字，挑選研究、定義、發想、收斂、原型與測試的方法。">
+  <meta name="theme-color" content="#efe6d6">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23f4efe4'/%3E%3Crect y='4' width='32' height='4' fill='%230e6b66'/%3E%3Crect y='8' width='32' height='4' fill='%239a5520'/%3E%3Crect y='12' width='32' height='4' fill='%23b33b28'/%3E%3Crect y='16' width='32' height='4' fill='%232f3d86'/%3E%3Crect y='20' width='32' height='4' fill='%234e5d28'/%3E%3Crect y='24' width='32' height='4' fill='%23733352'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,680&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#finder">跳到找卡器</a>
+  <div class="spectrum" aria-hidden="true">
+    <span data-stage="research"></span>
+    <span data-stage="define"></span>
+    <span data-stage="ideate"></span>
+    <span data-stage="converge"></span>
+    <span data-stage="prototype"></span>
+    <span data-stage="test"></span>
+  </div>
+
+  <header class="hero wrap">
+    <div class="hero-copy">
+      <p class="eyebrow">方法卡目錄</p>
+      <h1>設計思考方法卡</h1>
+      <p class="lede">做設計思考時，先看題目卡在哪一個階段，再從二十七張方法卡裡挑一到兩張來用。每張卡寫著什麼時候用、要準備什麼、怎麼做，以及容易忽略的小技巧。</p>
+      <p id="stage-tally" class="tally">正在讀取各階段的張數。</p>
+      <p class="hero-links"><a href="#finder">依情況找方法</a><a href="#how">怎麼選方法</a></p>
+    </div>
+    <ul class="stage-nav">
+      <li>
+        <a href="#stage-research" data-stage="research" data-stage-link="research">
+          <span class="stage-name">研究</span>
+          <span class="stage-total"></span>
+          <span class="stage-summary">題目還模糊、不確定誰會用時，先了解人、場域與市場。</span>
+        </a>
+      </li>
+      <li>
+        <a href="#stage-define" data-stage="define" data-stage-link="define">
+          <span class="stage-name">定義</span>
+          <span class="stage-total"></span>
+          <span class="stage-summary">把研究發現收斂成清楚的問題，再開始發想。</span>
+        </a>
+      </li>
+      <li>
+        <a href="#stage-ideate" data-stage="ideate" data-stage-link="ideate">
+          <span class="stage-name">發想</span>
+          <span class="stage-total"></span>
+          <span class="stage-summary">針對明確的問題，大量產生點子。</span>
+        </a>
+      </li>
+      <li>
+        <a href="#stage-converge" data-stage="converge" data-stage-link="converge">
+          <span class="stage-name">收斂</span>
+          <span class="stage-total"></span>
+          <span class="stage-summary">從大量點子中快速排序、凝聚共識。</span>
+        </a>
+      </li>
+      <li>
+        <a href="#stage-prototype" data-stage="prototype" data-stage-link="prototype">
+          <span class="stage-name">原型</span>
+          <span class="stage-total"></span>
+          <span class="stage-summary">把點子變成看得到、摸得到、走得過的樣子。</span>
+        </a>
+      </li>
+      <li>
+        <a href="#stage-test" data-stage="test" data-stage-link="test">
+          <span class="stage-name">測試</span>
+          <span class="stage-total"></span>
+          <span class="stage-summary">讓使用者實際體驗原型，蒐集回饋並改良。</span>
+        </a>
+      </li>
+    </ul>
+  </header>
+
+  <main class="wrap">
+    <section id="finder" class="panel" aria-labelledby="finder-title">
+      <h2 id="finder-title">我現在遇到什麼情況</h2>
+      <p class="section-intro">選一個最接近的情況，就會留下相關的方法卡。也可以用關鍵字搜尋，或只看某一個階段。三個條件會同時生效。若按鈕裡沒有你要的卡，直接看該階段，或用方法名稱搜尋。</p>
+      <div class="situations" role="group" aria-label="依情況找方法">
+        <button type="button" data-situation="fuzzy" data-ids="shadowing,fly-on-the-wall,desk-research,stakeholder-map,competitor-analysis" aria-pressed="false">題目很模糊、不知道誰會用</button>
+        <button type="button" data-situation="scattered" data-ids="stakeholder-map" aria-pressed="false">訪談太發散、不知道該找誰</button>
+        <button type="button" data-situation="unfocused" data-ids="point-of-view,how-might-we,persona,love-breakup-letter" aria-pressed="false">要開始發想但問題不夠聚焦</button>
+        <button type="button" data-situation="too-many" data-ids="dot-voting,idea-portfolio" aria-pressed="false">點子太多要挑</button>
+        <button type="button" data-situation="stuck" data-ids="six-thinking-hats" aria-pressed="false">意見卡住吵不完</button>
+        <button type="button" data-situation="intangible" data-ids="storyboard,role-playing" aria-pressed="false">概念很難做成實體</button>
+        <button type="button" data-situation="not-built" data-ids="wizard-of-oz" aria-pressed="false">功能還沒做好想先測</button>
+        <button type="button" data-situation="feelings" data-ids="desirability-testing,laddering,interview,love-breakup-letter" aria-pressed="false">想知道使用者真正的感受</button>
+        <button type="button" data-situation="quietly" data-ids="fly-on-the-wall" aria-pressed="false">想看真實行為、不想打擾對方</button>
+        <button type="button" data-situation="diverge" data-ids="brainstorming,method-635,crazy-8" aria-pressed="false">已經有明確問題、要大量發想</button>
+        <button type="button" data-situation="cheap" data-ids="guerrilla-testing" aria-pressed="false">想快速、便宜地蒐集回饋</button>
+        <button type="button" data-situation="gaps" data-ids="customer-journey-map,critical-incident" aria-pressed="false">想找出服務流程的缺口</button>
+      </div>
+
+      <form id="finder-form" role="search">
+        <label class="search-label" for="search">關鍵字</label>
+        <input id="search" type="search" placeholder="輸入方法名稱、英文原名或做法裡的詞" autocomplete="off" enterkeyhint="search">
+        <p id="stage-filter-label" class="search-label">階段</p>
+        <div class="stage-filters" role="group" aria-labelledby="stage-filter-label">
+          <button type="button" data-stage-filter="all" aria-pressed="true">全部</button>
+          <button type="button" data-stage-filter="research" data-stage="research" aria-pressed="false">研究</button>
+          <button type="button" data-stage-filter="define" data-stage="define" aria-pressed="false">定義</button>
+          <button type="button" data-stage-filter="ideate" data-stage="ideate" aria-pressed="false">發想</button>
+          <button type="button" data-stage-filter="converge" data-stage="converge" aria-pressed="false">收斂</button>
+          <button type="button" data-stage-filter="prototype" data-stage="prototype" aria-pressed="false">原型</button>
+          <button type="button" data-stage-filter="test" data-stage="test" aria-pressed="false">測試</button>
+        </div>
+        <button type="button" id="clear-filters" disabled>清除篩選</button>
+      </form>
+      <p id="result-summary" class="result-summary" aria-live="polite">正在讀取方法卡。</p>
+    </section>
+
+    <section id="catalog" aria-labelledby="catalog-title">
+      <h2 id="catalog-title">各階段的方法</h2>
+      <p id="empty" class="empty" hidden>沒有符合的方法卡。可以清除篩選，或換一個關鍵字。</p>
+      <div id="stage-root"></div>
+    </section>
+
+    <section id="how" class="guide" aria-labelledby="how-title">
+      <h2 id="how-title">怎麼選方法</h2>
+      <p class="section-intro">挑卡時不必把二十七張都走一遍。先判斷題目落在哪一個階段，再決定這一場要用哪幾張、為什麼。</p>
+      <h3>選卡原則</h3>
+      <ol class="principles">
+        <li>讀完題目，判斷它目前落在研究、定義、發想、收斂、原型、測試的哪一個階段。</li>
+        <li>每個階段挑一到兩張卡。開始之前寫明：這一場用哪幾張、為什麼。</li>
+        <li>照卡片的做法執行，把產出記下來。</li>
+        <li>到了收斂，由小組自己做決定。留下結果，並寫下一個具體的下一步。</li>
+      </ol>
+
+      <h3>各階段對照</h3>
+
+      <article class="guide-stage" data-stage="research">
+        <h4>研究</h4>
+        <p>題目模糊、不知道誰會用的時候，從下面挑一到兩張。</p>
+        <ul>
+          <li><a href="#card-desk-research">桌面研究</a>（Desk Research）：查公開資料，標明出處，並記下還沒查到的問題。</li>
+          <li><a href="#card-competitor-analysis">競品分析</a>（Competitor Analysis）：列出直接與間接競品，做一張功能比較表。</li>
+          <li><a href="#card-stakeholder-map">利害關係人地圖</a>（Stakeholder Mapping）：用同心圓列出直接影響、間接影響與其他影響者。</li>
+          <li><a href="#card-love-breakup-letter">分手信與情書</a>（Breakup Letter and Love Letter）：以使用者的身分，寫一封給現有產品的分手信或情書。</li>
+          <li><a href="#card-persona">人物誌</a>（Persona）：不同類型的使用者各寫一份。</li>
+          <li><a href="#card-customer-journey-map">顧客旅程地圖</a>（Customer Journey Map）：依照服務前、服務中、服務後，列出接觸點、情緒與痛點。</li>
+          <li><a href="#card-shadowing">影子觀察法</a>（Shadowing）、<a href="#card-fly-on-the-wall">隱匿觀察</a>（Fly-on-the-Wall Observation）、<a href="#card-interview">一對一深度訪談</a>（One-on-One Interview）：這三張需要真人在場，用來觀察日常，或深入詢問想法。</li>
+        </ul>
+      </article>
+
+      <article class="guide-stage" data-stage="define">
+        <h4>定義</h4>
+        <p>發想之前，先把問題聚焦。</p>
+        <ul>
+          <li><a href="#card-point-of-view">觀點陳述</a>（Point of View）：寫成「（使用者）需要（需求）才能（目標），因為（洞見）」。</li>
+          <li><a href="#card-how-might-we">我們該如何</a>（How Might We）：把每個洞見改寫成三個「我們該如何……」的問題，投票選出一到兩個，當作發想題目。</li>
+        </ul>
+      </article>
+
+      <article class="guide-stage" data-stage="ideate">
+        <h4>發想</h4>
+        <p>已經有明確問題時，先求數量，再補充細節。</p>
+        <ul>
+          <li><a href="#card-brainstorming">腦力激盪</a>（Brainstorming）與<a href="#card-crazy-8">瘋狂八格</a>（Crazy 8s）：可以當作預設。每人先寫出六到八個點子。</li>
+          <li><a href="#card-method-635">六三五默寫式腦力激盪</a>（6-3-5 Brainwriting）：接力發想。每人接前一位的點子，再寫三個。</li>
+          <li><a href="#card-six-thinking-hats">六頂思考帽</a>（Six Thinking Hats）：意見卡住，或題目複雜、討論沒有結論時使用。同一輪只戴一種顏色：白色是事實，紅色是感覺，黑色是風險，黃色是好處，綠色是新點子，藍色負責主持與總結。</li>
+          <li><a href="#card-pen-teller-poker">筆畫手、說故事者、提問者</a>（Pen, Teller, Poker）：一人把點子畫成畫面，其他人輪流說故事、追問。</li>
+        </ul>
+      </article>
+
+      <article class="guide-stage" data-stage="converge">
+        <h4>收斂</h4>
+        <p>點子已經很多，需要排出順序。</p>
+        <ul>
+          <li><a href="#card-dot-voting">點點投票</a>（Dot Voting）：預設的收斂方式。每個方向投一到三分。</li>
+          <li><a href="#card-idea-portfolio">點子合集</a>（Idea Portfolio）：需要更可靠的排序時改用。兩軸建議用「對使用者的影響」與「可行性」，各給零到十分，放到對應的象限。</li>
+        </ul>
+      </article>
+
+      <article class="guide-stage" data-stage="prototype">
+        <h4>原型</h4>
+        <p>依點子的形態，選一種把概念做出來的方法。</p>
+        <ul>
+          <li><a href="#card-storyboard">分鏡圖</a>（Storyboard）：服務流程類的點子，用六到八格文字分鏡描述關鍵時刻。</li>
+          <li><a href="#card-role-playing">角色扮演</a>（Role-Playing）：成員分別扮演服務提供方與使用者，把整段流程走一遍。</li>
+          <li><a href="#card-low-fidelity-prototype">低擬真原型</a>（Prototyping）：實體或畫面類的點子，用隨手可得的材料做成可以互動的樣品。</li>
+        </ul>
+      </article>
+
+      <article class="guide-stage" data-stage="test">
+        <h4>測試</h4>
+        <p>讓人實際碰到原型，再決定要改什麼。</p>
+        <ul>
+          <li><a href="#card-ab-testing">A/B 測試</a>（A/B Testing）：準備兩個版本來比較。</li>
+          <li><a href="#card-desirability-testing">期許測試</a>（Desirability Testing）：請人從正面、中性、負面的形容詞裡挑出符合感受的詞，並說明原因。</li>
+          <li><a href="#card-critical-incident">關鍵事件法</a>（Critical Incident Technique）：記錄使用樣品時卡住、或必須立刻做決定的時刻。</li>
+          <li><a href="#card-laddering">階梯法</a>（Laddering）：對著回答連續追問「為什麼」，找到行為背後的動機。</li>
+          <li><a href="#card-guerrilla-testing">游擊式測試</a>（Guerrilla Testing）：到咖啡廳或其他公共場所，邀請自願者用很短的時間試用，蒐集直覺反應。</li>
+          <li><a href="#card-wizard-of-oz">奧茲巫師</a>（Wizard of Oz）：功能還沒做出來時，由人在幕後即時模擬系統的回應，讓受測者以為自己在使用真正的系統。</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="wrap site-footer">
+    <p>設計思考方法卡。先判斷階段，再挑一到兩張來用。</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
