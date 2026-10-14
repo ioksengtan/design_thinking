@@ -16,12 +16,14 @@ python3 -m http.server
 
 請用本機伺服器開啟，不要直接點開 `index.html`。瀏覽器以檔案方式開啟時，無法讀取 `data/cards.json`。
 
+插圖是這個儲存庫裡的原創向量圖，放在 `illustrations/`。每張方法卡、每個階段和首屏各有一張。
+
 ## GitHub Pages
 
-這個儲存庫用 GitHub Actions 部署。推送到 `main` 時，工作流程會以 `actions/upload-pages-artifact` 上傳網站檔案，再用 `actions/deploy-pages` 發布。其他分支的推送不會部署。
+網站用 GitHub Pages 的「Deploy from a branch」發布。來源是 `main` 分支的根目錄。
 
-第一次啟用時，請到儲存庫的 **Settings → Pages**，把來源（Source）設為 **GitHub Actions**。
+到 **Settings → Pages**，Source 選 **Deploy from a branch**，Branch 選 `main`，資料夾選 `/ (root)`。
 
-合併到 `main` 並且部署完成後，網站會出現在：
+推送到 `main` 之後，網站會出現在：
 
 https://ioksengtan.github.io/design_thinking/

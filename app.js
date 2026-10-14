@@ -15,6 +15,36 @@
     query: ""
   };
 
+  const CARD_ALT = {
+    shadowing: "一個人拿著記錄板，跟著另一個人走路",
+    "fly-on-the-wall": "一個人從牆邊探出頭，看兩個人在現場說話",
+    "stakeholder-map": "一個人把不同角色畫進同心圓",
+    "love-breakup-letter": "一個人寫信，信上有完整的心和撕開的心",
+    "competitor-analysis": "一個人對著兩件產品做比較",
+    "desk-research": "一個人坐在電腦和書本前面查資料",
+    interview: "兩人面對面坐下，一人發問、一人記錄",
+    persona: "一個人整理使用者肖像和旁邊的特質卡",
+    "customer-journey-map": "一條路徑標著笑臉、平靜和皺眉，有人走在起點",
+    "point-of-view": "兩人看著板上被圈起來的使用者",
+    "how-might-we": "三個人看著寫了問號的卡片",
+    brainstorming: "兩人把便利貼貼到白板",
+    "method-635": "幾個人圍著一張寫了點子的紙，把紙傳下去",
+    "crazy-8": "一個人看著計時器，在八格紙上畫",
+    "six-thinking-hats": "一個人戴著帽子，上方還有另外五頂不同顏色的帽子",
+    "pen-teller-poker": "一人在畫，一人張嘴說故事，一人的氣泡裡是問號",
+    "dot-voting": "兩人在貼滿點子的紙上貼圓點",
+    "idea-portfolio": "兩人把便利貼放到十字分成的四格",
+    storyboard: "一連串格子畫著使用過程，一個人在補最後一格",
+    "role-playing": "一人站在櫃台後，一人提著袋子來當客人，另一人在記錄",
+    "low-fidelity-prototype": "一個人用厚紙板和膠帶做出粗糙的物品",
+    "ab-testing": "一個人看著兩份並排、按鈕形狀不同的樣品",
+    "desirability-testing": "一個人從皺眉、平靜和笑臉的卡片裡往上指",
+    "critical-incident": "一個人看著畫了叉的螢幕，另一人在旁記錄",
+    laddering: "兩人說話，問號分成三層往上疊",
+    "guerrilla-testing": "咖啡桌旁，一人把紙樣品拿給提著袋子的人看",
+    "wizard-of-oz": "一人看著螢幕，布幕後面有人在操作"
+  };
+
   let deck = null;
 
   form.addEventListener("submit", function (event) {
@@ -74,13 +104,22 @@
 
       const head = document.createElement("div");
       head.className = "stage-head";
+      const titleWrap = document.createElement("div");
+      titleWrap.className = "stage-title";
+      const icon = document.createElement("img");
+      icon.className = "stage-icon";
+      icon.src = "illustrations/stages/" + stage.id + ".svg";
+      icon.alt = "";
+      icon.width = 40;
+      icon.height = 40;
       const title = document.createElement("h2");
       title.textContent = stage.name;
+      titleWrap.append(icon, title);
       const intro = document.createElement("p");
       intro.textContent = stage.summary;
       const count = document.createElement("p");
       count.className = "stage-count";
-      head.append(title, intro, count);
+      head.append(titleWrap, intro, count);
 
       const grid = document.createElement("div");
       grid.className = "card-grid";
@@ -118,7 +157,15 @@
     english.lang = "en";
     english.textContent = card.english ? "（" + card.english + "）" : "";
 
+    const art = document.createElement("img");
+    art.className = "card-art";
+    art.src = "illustrations/cards/" + card.id + ".svg";
+    art.width = 320;
+    art.height = 200;
+    art.alt = CARD_ALT[card.id] || card.name;
+
     article.append(
+      art,
       top,
       name,
       english,
