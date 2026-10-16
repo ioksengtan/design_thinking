@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img"><title>桌上六頂不同顏色的帽子</title><style>.ink{stroke:#211c16;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke:#211c16;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;fill:none}</style><rect width="320" height="200" fill="#fffdf8"/><rect y="168" width="320" height="32" fill="#b33b28" opacity="0.14"/><path class="thin" d="M18 168 H302" /><ellipse cx="36" cy="52" rx="16" ry="5" fill="#fffdf8" stroke="#211c16" stroke-width="2"/><path d="M28 52 V38 Q36 28 44 38 V52" fill="#fffdf8" stroke="#211c16" stroke-width="2"/><ellipse cx="84" cy="52" rx="16" ry="5" fill="#e07a78" stroke="#211c16" stroke-width="2"/><path d="M76 52 V38 Q84 28 92 38 V52" fill="#e07a78" stroke="#211c16" stroke-width="2"/><ellipse cx="132" cy="52" rx="16" ry="5" fill="#211c16" stroke="#211c16" stroke-width="2"/><path d="M124 52 V38 Q132 28 140 38 V52" fill="#211c16" stroke="#211c16" stroke-width="2"/><ellipse cx="180" cy="52" rx="16" ry="5" fill="#f6d56b" stroke="#211c16" stroke-width="2"/><path d="M172 52 V38 Q180 28 188 38 V52" fill="#f6d56b" stroke="#211c16" stroke-width="2"/><ellipse cx="228" cy="52" rx="16" ry="5" fill="#6f9a55" stroke="#211c16" stroke-width="2"/><path d="M220 52 V38 Q228 28 236 38 V52" fill="#6f9a55" stroke="#211c16" stroke-width="2"/><ellipse cx="276" cy="52" rx="16" ry="5" fill="#3c5ea8" stroke="#211c16" stroke-width="2"/><path d="M268 52 V38 Q276 28 284 38 V52" fill="#3c5ea8" stroke="#211c16" stroke-width="2"/><g transform="translate(160 166) scale(0.78 0.78)">
+    <path class="ink" d="M-8 -30 L-14 2 M8 -30 L14 2"/>
+    <rect x="-16" y="-66" width="32" height="38" rx="12" fill="#f8d7c4" stroke="#211c16" stroke-width="2.4"/>
+    <path class="ink" d="M-12 -62 C -24 -50 -22 -34 -16 -24"/>
+    <path class="ink" d="M12 -62 C 24 -50 22 -34 16 -24"/>
+    <circle cx="0" cy="-86" r="16" fill="#f4c9a4" stroke="#211c16" stroke-width="2.4"/>
+    <path d="M-14 -90 C-16 -110 16 -110 14 -88 C6 -100 -8 -100 -14 -90 Z" fill="#2b241f"/>
+    <circle cx="-6" cy="-88" r="1.7" fill="#211c16"/>
+    <circle cx="6" cy="-88" r="1.7" fill="#211c16"/>
+    <path class="ink" d="M-6 -78 Q0 -71 6 -78"/>
+    <circle cx="-11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    <circle cx="11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    <ellipse cx="0" cy="-102" rx="18" ry="4.5" fill="#3c5ea8" stroke="#211c16" stroke-width="2.2"/><path d="M-9 -102 V-118 Q0 -126 9 -118 V-102 Z" fill="#3c5ea8" stroke="#211c16" stroke-width="2.2"/>
+    </g></svg>

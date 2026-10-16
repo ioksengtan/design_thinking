@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img"><title>兩人坐下，一人問、一人記</title><style>.ink{stroke:#211c16;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke:#211c16;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;fill:none}</style><rect width="320" height="200" fill="#fffdf8"/><rect y="168" width="320" height="32" fill="#0e6b66" opacity="0.14"/><path class="thin" d="M18 168 H302" /><rect x="46" y="150" width="40" height="8" rx="2" fill="#efe2cf" stroke="#211c16" stroke-width="2"/><rect x="210" y="150" width="40" height="8" rx="2" fill="#efe2cf" stroke="#211c16" stroke-width="2"/><g transform="translate(66 150) scale(0.78 0.78)">
+    <path class="ink" d="M-8 -32 L-8 -16 L22 -16 M6 -32 L6 -16 L30 -16"/>
+    <rect x="-16" y="-66" width="32" height="38" rx="12" fill="#0e6b66" stroke="#211c16" stroke-width="2.4"/>
+    <path class="ink" d="M-12 -62 C -24 -50 -22 -34 -16 -24"/>
+    <path class="ink" d="M12 -60 C 28 -54 40 -46 46 -36"/>
+    <circle cx="0" cy="-86" r="16" fill="#f4c9a4" stroke="#211c16" stroke-width="2.4"/>
+    <path d="M-14 -90 C-16 -110 16 -110 14 -88 C6 -100 -8 -100 -14 -90 Z" fill="#2b241f"/>
+    <circle cx="-6" cy="-88" r="1.7" fill="#211c16"/>
+    <circle cx="6" cy="-88" r="1.7" fill="#211c16"/>
+    <path class="ink" d="M-6 -78 Q0 -71 6 -78"/>
+    <circle cx="-11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    <circle cx="11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    
+    </g><g transform="translate(230 150) scale(-0.78 0.78)">
+    <path class="ink" d="M-8 -32 L-8 -16 L22 -16 M6 -32 L6 -16 L30 -16"/>
+    <rect x="-16" y="-66" width="32" height="38" rx="12" fill="#733352" stroke="#211c16" stroke-width="2.4"/>
+    <path class="ink" d="M-12 -60 C -30 -58 -42 -46 -46 -32"/>
+    <path class="ink" d="M12 -62 C 24 -50 22 -34 16 -24"/>
+    <circle cx="0" cy="-86" r="16" fill="#e4ac84" stroke="#211c16" stroke-width="2.4"/>
+    <path d="M-16 -92 C-22 -112 22 -112 16 -90 C18 -78 12 -74 8 -82 C2 -74 -4 -78 -10 -74 C-16 -78 -18 -84 -16 -92 Z" fill="#6d4630"/>
+    <circle cx="-6" cy="-88" r="1.7" fill="#211c16"/>
+    <circle cx="6" cy="-88" r="1.7" fill="#211c16"/>
+    <ellipse cx="0" cy="-76" rx="3.2" ry="3.6" fill="#211c16"/>
+    <circle cx="-11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    <circle cx="11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    
+    </g><g transform="translate(108 124) rotate(8)"><rect x="-18" y="-26" width="36" height="48" rx="4" fill="#fffdf8" stroke="#211c16" stroke-width="2.2"/><rect x="-8" y="-32" width="16" height="10" rx="2" fill="#f6d56b" stroke="#211c16" stroke-width="2"/><path class="thin" d="M-10 -8 H10 M-10 0 H10 M-10 8 H4"/></g><g transform="translate(188 62)"><rect x="-23.0" y="-14.0" width="46" height="28" rx="12" fill="#fffdf8" stroke="#211c16" stroke-width="2.2"/><path d="M-6 13.0 L0 24.0 L8 13.0" fill="#fffdf8" stroke="#211c16" stroke-width="2.2" stroke-linejoin="round"/><circle cx="-6" cy="0" r="2" fill="#211c16"/><circle cx="2" cy="0" r="2" fill="#211c16"/><circle cx="10" cy="0" r="2" fill="#211c16"/></g></svg>

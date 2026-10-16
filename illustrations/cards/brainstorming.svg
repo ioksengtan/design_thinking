@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img"><title>把便利貼貼到白板上</title><style>.ink{stroke:#211c16;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke:#211c16;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;fill:none}</style><rect width="320" height="200" fill="#fffdf8"/><rect y="168" width="320" height="32" fill="#b33b28" opacity="0.14"/><path class="thin" d="M18 168 H302" /><rect x="108" y="28" width="190" height="112" rx="6" fill="#fffdf8" stroke="#211c16" stroke-width="2.4"/><g transform="translate(150 58) rotate(-6)"><rect x="-15.0" y="-18.0" width="30" height="36" rx="3" fill="#f6d56b" stroke="#211c16" stroke-width="2.2"/><path class="thin" d="M-9.0 -4 H9.0 M-9.0 4 H7.0"/></g><g transform="translate(190 70) rotate(8)"><rect x="-15.0" y="-18.0" width="30" height="36" rx="3" fill="#f4b4c6" stroke="#211c16" stroke-width="2.2"/><path class="thin" d="M-9.0 -4 H9.0 M-9.0 4 H7.0"/></g><g transform="translate(230 52) rotate(-2)"><rect x="-15.0" y="-18.0" width="30" height="36" rx="3" fill="#bfe0cf" stroke="#211c16" stroke-width="2.2"/><path class="thin" d="M-9.0 -4 H9.0 M-9.0 4 H7.0"/></g><g transform="translate(176 108) rotate(4)"><rect x="-15.0" y="-18.0" width="30" height="36" rx="3" fill="#b9d6f2" stroke="#211c16" stroke-width="2.2"/><path class="thin" d="M-9.0 -4 H9.0 M-9.0 4 H7.0"/></g><g transform="translate(230 108) rotate(-8)"><rect x="-15.0" y="-18.0" width="30" height="36" rx="3" fill="#f6d56b" stroke="#211c16" stroke-width="2.2"/><path class="thin" d="M-9.0 -4 H9.0 M-9.0 4 H7.0"/></g><g transform="translate(48 166) scale(0.78 0.78)">
+    <path class="ink" d="M-8 -30 L-14 2 M8 -30 L14 2"/>
+    <rect x="-16" y="-66" width="32" height="38" rx="12" fill="#b33b28" stroke="#211c16" stroke-width="2.4"/>
+    <path class="ink" d="M-12 -62 C -24 -50 -22 -34 -16 -24"/>
+    <path class="ink" d="M12 -62 C 20 -82 18 -98 6 -108"/>
+    <circle cx="0" cy="-86" r="16" fill="#f4c9a4" stroke="#211c16" stroke-width="2.4"/>
+    <path d="M-14 -90 C-16 -110 16 -110 14 -88 C6 -100 -8 -100 -14 -90 Z" fill="#2b241f"/>
+    <circle cx="-6" cy="-88" r="1.7" fill="#211c16"/>
+    <circle cx="6" cy="-88" r="1.7" fill="#211c16"/>
+    <path class="ink" d="M-6 -78 Q0 -71 6 -78"/>
+    <circle cx="-11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    <circle cx="11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    
+    </g><g transform="translate(92 166) scale(0.64 0.64)">
+    <path class="ink" d="M-8 -30 L-14 2 M8 -30 L14 2"/>
+    <rect x="-16" y="-66" width="32" height="38" rx="12" fill="#9a5520" stroke="#211c16" stroke-width="2.4"/>
+    <path class="ink" d="M-12 -62 C -24 -50 -22 -34 -16 -24"/>
+    <path class="ink" d="M12 -62 C 20 -82 18 -98 6 -108"/>
+    <circle cx="0" cy="-86" r="16" fill="#e4ac84" stroke="#211c16" stroke-width="2.4"/>
+    <path d="M-14 -88 C-16 -108 14 -108 14 -88 C6 -98 -8 -98 -14 -88 Z" fill="#3e3a55"/><circle cx="10" cy="-108" r="6.5" fill="#3e3a55" stroke="#211c16" stroke-width="2.2"/>
+    <circle cx="-6" cy="-88" r="1.7" fill="#211c16"/>
+    <circle cx="6" cy="-88" r="1.7" fill="#211c16"/>
+    <path class="ink" d="M-6 -78 Q0 -71 6 -78"/>
+    <circle cx="-11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    <circle cx="11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    
+    </g></svg>

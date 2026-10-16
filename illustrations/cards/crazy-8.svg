@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img"><title>在八格紙上趕著畫</title><style>.ink{stroke:#211c16;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke:#211c16;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;fill:none}</style><rect width="320" height="200" fill="#fffdf8"/><rect y="168" width="320" height="32" fill="#b33b28" opacity="0.14"/><path class="thin" d="M18 168 H302" /><rect x="128" y="40" width="40" height="46" fill="#fffdf8" stroke="#211c16" stroke-width="2"/><path class="thin" d="M136 58 H160"/><rect x="170" y="40" width="40" height="46" fill="#fffdf8" stroke="#211c16" stroke-width="2"/><path class="thin" d="M178 58 H202"/><rect x="212" y="40" width="40" height="46" fill="#fffdf8" stroke="#211c16" stroke-width="2"/><path class="thin" d="M220 58 H244"/><rect x="254" y="40" width="40" height="46" fill="#fffdf8" stroke="#211c16" stroke-width="2"/><path class="thin" d="M262 58 H286"/><rect x="128" y="88" width="40" height="46" fill="#fffdf8" stroke="#211c16" stroke-width="2"/><path class="thin" d="M136 106 H160"/><rect x="170" y="88" width="40" height="46" fill="#fffdf8" stroke="#211c16" stroke-width="2"/><path class="thin" d="M178 106 H202"/><rect x="212" y="88" width="40" height="46" fill="#fffdf8" stroke="#211c16" stroke-width="2"/><path class="thin" d="M220 106 H244"/><rect x="254" y="88" width="40" height="46" fill="#fffdf8" stroke="#211c16" stroke-width="2"/><path class="thin" d="M262 106 H286"/><circle cx="70" cy="56" r="18" fill="#fffdf8" stroke="#211c16" stroke-width="2.2"/><path class="ink" d="M70 56 L70 44 M70 56 L80 60"/><g transform="translate(64 166) scale(0.78 0.78)">
+    <path class="ink" d="M-8 -30 L-14 2 M8 -30 L14 2"/>
+    <rect x="-16" y="-66" width="32" height="38" rx="12" fill="#b33b28" stroke="#211c16" stroke-width="2.4"/>
+    <path class="ink" d="M-12 -62 C -24 -50 -22 -34 -16 -24"/>
+    <path class="ink" d="M12 -60 C 28 -54 40 -46 46 -36"/>
+    <circle cx="0" cy="-86" r="16" fill="#f4c9a4" stroke="#211c16" stroke-width="2.4"/>
+    <path d="M-14 -88 C-16 -108 14 -108 14 -88 C6 -98 -8 -98 -14 -88 Z" fill="#3e3a55"/><circle cx="10" cy="-108" r="6.5" fill="#3e3a55" stroke="#211c16" stroke-width="2.2"/>
+    <circle cx="-6" cy="-88" r="1.7" fill="#211c16"/>
+    <circle cx="6" cy="-88" r="1.7" fill="#211c16"/>
+    <path class="ink" d="M-6 -78 Q0 -71 6 -78"/>
+    <circle cx="-11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    <circle cx="11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    
+    </g></svg>

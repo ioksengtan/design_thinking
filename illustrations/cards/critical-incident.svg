@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img"><title>有人卡住時，旁邊的人把那個時刻記下來</title><style>.ink{stroke:#211c16;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke:#211c16;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;fill:none}</style><rect width="320" height="200" fill="#fffdf8"/><rect y="168" width="320" height="32" fill="#733352" opacity="0.14"/><path class="thin" d="M18 168 H302" /><g transform="translate(168 58)"><rect x="0" y="0" width="86" height="64" rx="6" fill="#b9d6f2" stroke="#211c16" stroke-width="2.2"/><path class="ink" d="M35.0 64 V72 H51.0"/><path class="ink" d="M30 18 L48 40 M48 18 L30 40"/></g><g transform="translate(118 166) scale(0.8 0.8)">
+    <path class="ink" d="M-8 -30 L-14 2 M8 -30 L14 2"/>
+    <rect x="-16" y="-66" width="32" height="38" rx="12" fill="#9a5520" stroke="#211c16" stroke-width="2.4"/>
+    <path class="ink" d="M-12 -62 C -24 -50 -22 -34 -16 -24"/>
+    <path class="ink" d="M12 -62 C 24 -50 22 -34 16 -24"/>
+    <circle cx="0" cy="-86" r="16" fill="#e4ac84" stroke="#211c16" stroke-width="2.4"/>
+    <path d="M-16 -92 C-22 -112 22 -112 16 -90 C18 -78 12 -74 8 -82 C2 -74 -4 -78 -10 -74 C-16 -78 -18 -84 -16 -92 Z" fill="#6d4630"/>
+    <circle cx="-6" cy="-88" r="1.7" fill="#211c16"/>
+    <circle cx="6" cy="-88" r="1.7" fill="#211c16"/>
+    <path class="ink" d="M-6 -74 Q0 -80 6 -74"/>
+    <circle cx="-11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    <circle cx="11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    
+    </g><g transform="translate(64 166) scale(0.72 0.72)">
+    <path class="ink" d="M-8 -30 L-14 2 M8 -30 L14 2"/>
+    <rect x="-16" y="-66" width="32" height="38" rx="12" fill="#733352" stroke="#211c16" stroke-width="2.4"/>
+    <path class="ink" d="M-12 -62 C -24 -50 -22 -34 -16 -24"/>
+    <path class="ink" d="M12 -60 C 28 -54 40 -46 46 -36"/>
+    <circle cx="0" cy="-86" r="16" fill="#f4c9a4" stroke="#211c16" stroke-width="2.4"/>
+    <path d="M-14 -90 C-16 -110 16 -110 14 -88 C6 -100 -8 -100 -14 -90 Z" fill="#2b241f"/>
+    <circle cx="-6" cy="-88" r="1.7" fill="#211c16"/>
+    <circle cx="6" cy="-88" r="1.7" fill="#211c16"/>
+    <path class="ink" d="M-6 -78 Q0 -71 6 -78"/>
+    <circle cx="-11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    <circle cx="11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    
+    </g><g transform="translate(48 108) rotate(-10)"><rect x="-18" y="-26" width="36" height="48" rx="4" fill="#fffdf8" stroke="#211c16" stroke-width="2.2"/><rect x="-8" y="-32" width="16" height="10" rx="2" fill="#f6d56b" stroke="#211c16" stroke-width="2"/><path class="thin" d="M-10 -8 H10 M-10 0 H10 M-10 8 H4"/></g></svg>

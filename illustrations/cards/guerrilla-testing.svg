@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img"><title>在咖啡桌旁把紙樣品拿給路過的人</title><style>.ink{stroke:#211c16;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;fill:none}.thin{stroke:#211c16;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;fill:none}</style><rect width="320" height="200" fill="#fffdf8"/><rect y="168" width="320" height="32" fill="#733352" opacity="0.14"/><path class="thin" d="M18 168 H302" /><ellipse cx="170" cy="132" rx="46" ry="10" fill="#efe2cf" stroke="#211c16" stroke-width="2.2"/><path d="M156 124 C156 110 184 110 184 124" fill="#fffdf8" stroke="#211c16" stroke-width="2.2"/><path d="M164 112 C164 104 176 104 176 112" fill="none" class="ink"/><g transform="translate(196 108) rotate(8)"><rect x="-14.0" y="-17.0" width="28" height="34" rx="3" fill="#f6d56b" stroke="#211c16" stroke-width="2.2"/><path class="thin" d="M-8.0 -4 H8.0 M-8.0 4 H6.0"/></g><g transform="translate(78 166) scale(0.8 0.8)">
+    <path class="ink" d="M-8 -32 L-8 -16 L22 -16 M6 -32 L6 -16 L30 -16"/>
+    <rect x="-16" y="-66" width="32" height="38" rx="12" fill="#733352" stroke="#211c16" stroke-width="2.4"/>
+    <path class="ink" d="M-12 -62 C -24 -50 -22 -34 -16 -24"/>
+    <path class="ink" d="M12 -60 C 30 -58 42 -46 46 -32"/>
+    <circle cx="0" cy="-86" r="16" fill="#f4c9a4" stroke="#211c16" stroke-width="2.4"/>
+    <path d="M-16 -92 C-22 -112 22 -112 16 -90 C18 -78 12 -74 8 -82 C2 -74 -4 -78 -10 -74 C-16 -78 -18 -84 -16 -92 Z" fill="#6d4630"/>
+    <circle cx="-6" cy="-88" r="1.7" fill="#211c16"/>
+    <circle cx="6" cy="-88" r="1.7" fill="#211c16"/>
+    <path class="ink" d="M-6 -78 Q0 -71 6 -78"/>
+    <circle cx="-11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    <circle cx="11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    
+    </g><rect x="58" y="152" width="36" height="8" rx="2" fill="#efe2cf" stroke="#211c16" stroke-width="2"/><g transform="translate(270 166) scale(-0.82 0.82)">
+    <path class="ink" d="M-8 -30 L-14 2 M8 -30 L14 2"/>
+    <rect x="-16" y="-66" width="32" height="38" rx="12" fill="#4e5d28" stroke="#211c16" stroke-width="2.4"/>
+    <path class="ink" d="M-12 -60 C -22 -48 -16 -38 -6 -32"/>
+    <path class="ink" d="M12 -62 C 24 -50 22 -34 16 -24"/>
+    <circle cx="0" cy="-86" r="16" fill="#e4ac84" stroke="#211c16" stroke-width="2.4"/>
+    <path d="M-14 -90 C-16 -110 16 -110 14 -88 C6 -100 -8 -100 -14 -90 Z" fill="#6d4630"/>
+    <circle cx="-6" cy="-88" r="1.7" fill="#211c16"/>
+    <circle cx="6" cy="-88" r="1.7" fill="#211c16"/>
+    <path class="ink" d="M-6 -78 Q0 -71 6 -78"/>
+    <circle cx="-11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    <circle cx="11" cy="-82" r="2.6" fill="#f3a8a4"/>
+    
+    </g><rect x="232" y="112" width="16" height="20" rx="2" fill="#f4b4c6" stroke="#211c16" stroke-width="2"/></svg>
